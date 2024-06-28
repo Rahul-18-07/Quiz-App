@@ -23,8 +23,4 @@ Follow these instructions to get a copy of the project up and running on your lo
 - npm (Node Package Manager)
 
 ### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/quiz-app.git
-   cd quiz-app
+   
