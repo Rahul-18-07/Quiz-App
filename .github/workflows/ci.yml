@@ -34,7 +34,7 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/react-nginx-app:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/react-nginx-app:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/react-nginx-app:latest
           build-args: |
             GIT_COMMIT=${{ github.sha }}
 
@@ -44,4 +44,4 @@ jobs:
           echo "✅ Docker image successfully built and pushed!"
           echo "Tags:"
           echo " - ${{ secrets.DOCKERHUB_USERNAME }}/react-nginx-app:latest"
-          echo " - ${{ secrets.DOCKERHUB_USERNAME }}/react-nginx-app:${{ github.sha }}"
+          echo " - ${{ secrets.DOCKERHUB_USERNAME }}/react-nginx-app:latest"
