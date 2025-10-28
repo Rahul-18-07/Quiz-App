@@ -4,10 +4,11 @@ const Header = () => {
   return (
     <div className="header">
       <Link to="/" className="title">
-        QUIZ APP
+        Rahul
       </Link>
       <hr className="divider" />
     </div>
   );
 };
 export default Header;
+
